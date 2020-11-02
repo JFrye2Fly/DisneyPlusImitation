@@ -1,0 +1,75 @@
+.bodywrapper{
+    background: #000;
+    margin: 0;
+    padding: 0;
+
+    .container{
+        width: 95%;
+    }
+}
+
+.moviegrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: .7rem;
+    margin: 0;
+    padding: 6rem 0;
+
+    &__itemcontainer{
+        
+        margin-bottom: 1.7rem;
+
+        &__image{
+            height: 300px;
+            background-size: contain;
+            // background: url('../img/movietheater.jpg') no-repeat center center scroll; 
+            // -webkit-background-size: contain;
+            // -moz-background-size: contain;
+            // -o-background-size: contain;
+            // background-size: contain;
+            // object-fit: contain;
+            margin-bottom: .8rem;
+            cursor: pointer;
+            transition: transform .15s ease-in-out;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+
+        &__info{
+            p{
+                margin: 0;
+                padding: 0;
+                color: #999;
+                font-size: 1.1rem;
+            }
+
+            p.moviegrid__itemcontainer__info__title{
+               color: #fff;
+               font-size: 1.6rem;
+               font-weight: 600;
+            }
+        }
+
+        &__button{
+            button{
+            margin-top: .5rem;
+            border-radius: 0 .8rem .8rem 0;
+            padding: .6rem;
+            background: $pink;
+            border: none;
+            outline: none;
+            width: 150px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.2rem;
+
+            &:hover{
+                cursor: pointer;
+                background: #B7142C;
+            }
+            } 
+        }
+    }
+}

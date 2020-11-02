@@ -1,0 +1,20 @@
+.coviddiv{
+    background: $pink;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom:0;
+    padding: .7rem 4rem;
+    &__text{
+        margin: 0;
+        padding: 0;
+        letter-spacing: .1rem;
+    }
+    &__close{
+        margin: 0;
+        padding: 0;
+        font-size: 2rem;
+    }
+}

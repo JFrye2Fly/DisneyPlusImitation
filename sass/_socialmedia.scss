@@ -1,0 +1,27 @@
+.socialmedia{
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: 4rem auto 0;
+
+    &__itemcontainer{
+
+        
+        i{
+            color: #fff;
+            font-size: 2rem;
+            border: 1px solid #fff;
+            border-radius: 45%;
+            padding: .65rem;
+            transition: all .2s ease-in-out;
+
+            &:hover{
+                border:#04B2D9 solid .4px;
+                color:#04B2D9;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

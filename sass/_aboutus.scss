@@ -1,0 +1,21 @@
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #171717;
+    padding: 1rem 1.5rem;
+    color: #fff;
+
+    &__column{
+
+        &__title{
+            margin-bottom: 1rem;
+        }
+
+        p{
+            margin-bottom: .2rem;
+        }
+    }
+
+    border-bottom: .3px solid #777;
+}
